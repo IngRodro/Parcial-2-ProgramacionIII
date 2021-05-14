@@ -1,0 +1,27 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>ControllerUser</servlet-name>
+  	<display-name>ControllerUser</display-name>
+  	<description></description>
+  	<servlet-class>com.Parcial2.Controladores.ControllerUser</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ControllerConsulta</servlet-name>
+  	<display-name>ControllerConsulta</display-name>
+  	<description></description>
+  	<servlet-class>com.Parcial2.Controladores.ControllerConsulta</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>ControllerUser</servlet-name>
+  	<url-pattern>/ControllerUser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ControllerConsulta</servlet-name>
+  	<url-pattern>/ControllerConsulta</url-pattern>
+  </servlet-mapping>
+</web-app>
